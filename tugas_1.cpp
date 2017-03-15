@@ -8,7 +8,9 @@ using namespace std;
 
 int main()
 {
-
+    int a,b,c,d;
+    char a[10];
+    
     return 0;
 }
 
