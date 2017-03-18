@@ -31,13 +31,13 @@ Program ini menampilkan 7 kategori buku sperti <b>Tekonologi, Agama, Psikolok, S
 
 <h3>Class Buku</h3>
 <b>Atribut</b>
-- judul string
-- penulis string
-- deskripsi string 
-- penerbit string 
-- kota string
-- Tahun int
-- halaman int
+- judul string <br>
+- penulis string <br>
+- deskripsi string <br>
+- penerbit string <br>
+- kota string <br>
+- Tahun int <br>
+- halaman int <br>
 <b>Method</b>
-+ isiBuku void
-+ tampil void
++ isiBuku void <br>
++ tampil void <br>
