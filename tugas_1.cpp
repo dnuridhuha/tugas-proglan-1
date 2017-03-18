@@ -35,6 +35,28 @@ class buku {
 		}
 };
 
+//Dari Meidiana
+void daftarFilsafat(){
+	//membuat variabel class array filsafat berisi 6
+	buku filsafat[6];
+	
+	//membuat mengisi array 'filsafat'
+	filsafat[0].isi_buku("Sejarah Filsafat Barat", "George Russel", "Ini buku tentang filsafat orang barat", "Indonesia Merdeka", "Jakarta", 500, 2005);
+	filsafat[1].isi_buku("Menelusuri Pragmatisme", "Anastasia Jessica", "Ini buku tentang Pemikiran Pragmatisme", "Gramedia", "Bandung", 350, 2016);
+	filsafat[2].isi_buku("Tema-Tema Eksistensialisme", "Emanuel Prasetyono", "Ini buku tentang Pengantar Eksistensialisme", "Widya Mandala", "Surabaya", 675, 2011);
+	filsafat[3].isi_buku("Filsafat Berpikir Orang Timur", "Konrad", "Ini buku tentang cara berpikir manusia", "Merdeka", "Madiun", 958, 2020);
+	filsafat[4].isi_buku("Pengembangan Metode Ilmiah", "Suwardi Endraswara", "Ini buku tentang pengembangan ilmu", "Gramedia", "Jakarta", 800, 2017);
+	filsafat[5].isi_buku("Filsafat Ilmu,Teori dan Aplikasi", "Jack Dawson", "Ini buku tentang pengamatan bahasa yang mudah dicerna", "Cahaya", "Bogor", 775, 2014);
+	
+	cout << "Daftar Buku Filsafat :" << endl;
+	
+	//menapilkan daftar buku filsafat
+	for (int i = 0; i < sizeof(filsafat) / sizeof(buku); i++) {
+		cout << "\nDaftar yang ke-" << i + 1 << endl;
+		filsafat[i].tampil();
+	}
+}
+
 //Dari Dwiki
 void daftarTeknologi(){
 	//membuat variabel class array teknologi berisi 5
@@ -59,6 +81,8 @@ void daftarTeknologi(){
 int main()
 {
 	daftarTeknologi(); //Dari Dwiki
+	
+	daftarFilsafat(); //Dari Meidiana
 	
     return 0;
 }
