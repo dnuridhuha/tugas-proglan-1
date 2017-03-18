@@ -12,9 +12,9 @@ Nim : 165150300111004 <br>
 Tugas : Membuat Objek Kategori Sejarah dan Politik <br>
 
 3.
-Nama : 
-Nim : 
-Tugas :
+Nama : Yulius Adi Pratama
+Nim : 165150300111010
+Tugas : Membuat Objek Kategori Pisikologi  
 
 4.
 Nama : 
