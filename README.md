@@ -25,3 +25,22 @@ Tugas :
 Nama : 
 Nim : 
 Tugas :
+<hr>
+# Detail Project
+Program ini menampilkan 7 kategori buku sperti <b>Tekonologi, Agama, Psikolok, Sejarah, Filsafat, Politik, dan Fiksi</b> yang di buat dengan menggunakan Class pemrograman C++, Berikut desain classnya : <br>
+
+<tabel>
+<tr>
+	Class Buku
+</tr>
+
+<tr>
+Atribut
+</tr>
+
+
+<tr>
+	Method
+</tr>
+
+</tabel>
