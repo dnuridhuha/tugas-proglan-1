@@ -22,9 +22,9 @@ Nim : 165150301111037 <br>
 Tugas : Membuat Objek Kategori Filsafat <br>
 
 5.
-Nama : 
-Nim : 
-Tugas :
+Nama : Rahma Tiara Puteri <br>
+Nim : 165150300111001 <br>
+Tugas : Membuat Objek Kategori Agama dan Fiksi <br>
 <hr>
 <h1>Detail Project</h1>
 Program ini menampilkan 7 kategori buku sperti <b>Tekonologi, Agama, Psikolok, Sejarah, Filsafat, Politik, dan Fiksi</b> yang di buat dengan menggunakan Class pemrograman C++, Berikut desain classnya : <br>
