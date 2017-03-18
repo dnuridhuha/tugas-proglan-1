@@ -10,27 +10,51 @@
 using namespace std;
 
 class buku {
-	string judul, penulis, deskripsi, penerbit;
+	string judul, penulis, deskripsi, penerbit, kota;
 	int hal, tahun;
 
 	public:
-		void isi_buku(string judul, string penulis, string deskripsi, string penerbit, int hal, int tahun){
+		void isi_buku(string judul, string penulis, string deskripsi, string penerbit, string kota, int hal, int tahun){
 			this->hal = hal;
 			this->penulis = penulis;
 			this->penerbit = penerbit;
 			this->deskripsi = deskripsi;
 			this->judul = judul;
 			this->tahun = tahun;
+			this->kota = kota;
 		}
 
 		void tampil(){
-			cout << "Judul\t:" << this->judul << endl;
-			cout << "Halaman\t:" << this->hal << endl;
+			cout << "Penulis\t\t:" << this->penulis << endl;
+			cout << "Tahun\t\t:" << this->tahun << endl;
+			cout << "Judul\t\t:" << this->judul << endl;
+			cout << "Kota\t\t:" << this->kota << endl;
 			cout << "Penerbit\t:" << this->penerbit << endl;
-			cout << "Penulis\t:" << this->penulis << endl;
+			cout << "Halaman\t\t:" << this->hal << endl;
 			cout << "Deskripsi\t:" << this->deskripsi << endl;
 		}
 };
+
+//Dari Yullius
+void daftar_psychology(){
+	//membuat variabel class array psychology berisi 5
+	buku psychology[5];
+
+	//membuat mengisi array 'psychology'
+	psychology[0].isi_buku("Read Your Mind", "Yulius Pratama", "Tutorial membaca pikiran manusia ", "YuliusP", "Blitar", 327, 2020);
+	psychology[1].isi_buku("Bimbingan Konseling ", "Fenti Hikmawati ", "Ini buku tentang bibimbingan konseling", "RajaGrafindo Persada", "indonesia", 160, 2012);
+	psychology[2].isi_buku("Psychology For Beginner", "Yulius Pratama", "Ini buku bembelajaran Psychology untuk pemula ", "YuliusP", "Blitar", 710, 2030);
+	psychology[3].isi_buku("Cara Mengendalikan pikiran manusia", "Yulius Pratama", "Ini buku tentang cara mengedalikan pikiran manusia", "YuliusP", "Blitar", 775, 2027);
+	psychology[4].isi_buku("The brain game", "Yulius Pratama", "Ini buku tentang bagaimana mangolah pikiran dengan baik", "YuliusP", "Blitar", 231, 2043);
+
+	cout << "Daftar Buku psychology :" << endl;
+
+	//menapilkan daftar buku psychology
+	for (int i = 0; i < sizeof(psychology) / sizeof(buku); i++) {
+		cout << "\nDaftar yang ke-" << i + 1 << endl;
+		psychology[i].tampil();
+	}
+}
 
 int main()
 {
@@ -41,31 +65,9 @@ int main()
     cout << "==================================================" << endl;
     cout << endl;
     cout << endl;
-    cout << "=                 The Technology book            =" << endl;
-    cout << endl;
-	buku teknologi[2];
 
-	teknologi[0].isi_buku("Program C++", "Dwiki", "Ini buku tentang pemrograman C++", "Informatika", 627, 2018);
-	teknologi[0].tampil();
+   daftar_psychology();
 
-	cout << endl;
-
-	teknologi[1].isi_buku("Become Hakel", "Dwiki", "Ini buku tentang Hakel", "Informatika", 482, 2020);
-	teknologi[1].tampil();
-
-    cout << endl;
-    cout << "=                 The Psychology book            =" << endl;
-    cout << endl;
-
-	buku psychology[2];
-
-	psychology[0].isi_buku("Belajar Bahasa Tubuh", "Yulius", "Buku ini mengajarkan cara beljar bahasa tubuh yang baik  ", "YuliusPratama", 158, 2030);
-	psychology[0].tampil();
-
-	cout << endl;
-
-	psychology[1].isi_buku(" Read Mind ", "Yulius", "Ini buku tentang bagaimana membaca pikiran Manusia ", "YuliusPratama", 382, 2029);
-	psychology[1].tampil();
     return 0;
 }
 
