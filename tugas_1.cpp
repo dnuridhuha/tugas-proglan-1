@@ -96,9 +96,11 @@ void daftarPolitik(){
 
 int main()
 {
-	daftarTeknologi();//Dari Dwiki
+	daftarTeknologi(); //Dari Dwiki
 	
 	daftarSejarah();//Dari Zakki
 	daftarPolitik();//Dari Zakki
     return 0;
 }
+
+
