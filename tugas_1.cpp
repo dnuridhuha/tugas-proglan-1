@@ -59,7 +59,6 @@ void daftarTeknologi(){
 void daftarSejarah(){
 	//membuat variabel class array sejarah berisi 5
 	buku sejarah[5];
-	
 	//membuat mengisi array 'sejarah'
 	sejarah[0].isi_buku("Api Sejarah Jilid Kesatu", "Ahmad Mansur Suryanegara", "Ini buku tentang sejarah Indonesia yang sebenarnya", "Salamadani Pustaka Semesta", "Bandung", 584, 2009);
 	sejarah[1].isi_buku("Api Sejarah Jilid Kedua", "Ahmad Mansur Suryanegara", "Ini buku tentang sejarah Indonesia yang sebenarnya", "Salamadani Pustaka Semesta", "Bandung", 578, 2010);
@@ -79,7 +78,6 @@ void daftarSejarah(){
 void daftarPolitik(){
 	//membuat variabel class array politik berisi 5
 	buku politik[5];
-	
 	//membuat mengisi array 'politik'
 	politik[0].isi_buku("Programing C++", "Dwiki Nuridhuha", "Ini buku tentang pemrograman C++", "Informatika", "Mojokerto", 627, 2018);
 	politik[1].isi_buku("Become Hakel", "Dwiki Nuridhuha", "Ini buku tentang Hakel", "Informatika", "Mojokerto", 482, 2020);
