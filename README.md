@@ -29,18 +29,15 @@ Tugas :
 <h1>Detail Project</h1>
 Program ini menampilkan 7 kategori buku sperti <b>Tekonologi, Agama, Psikolok, Sejarah, Filsafat, Politik, dan Fiksi</b> yang di buat dengan menggunakan Class pemrograman C++, Berikut desain classnya : <br>
 
-<tabel>
-<tr>
-	Class Buku
-</tr>
-
-<tr>
-Atribut
-</tr>
-
-
-<tr>
-	Method
-</tr>
-
-</tabel>
+<h3>Class Buku</h3>
+<b>Atribut</b>
+- judul string
+- penulis string
+- deskripsi string 
+- penerbit string 
+- kota string
+- Tahun int
+- halaman int
+<b>Method</b>
++ isiBuku void
++ tampil void
