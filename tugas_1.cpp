@@ -61,11 +61,11 @@ void daftarSejarah(){
 	buku sejarah[5];
 	
 	//membuat mengisi array 'sejarah'
-	teknologi[0].isi_buku("Api Sejarah Jilid Kesatu", "Ahmad Mansur Suryanegara", "Ini buku tentang sejarah Indonesia yang sebenarnya", "Salamadani Pustaka Semesta", "Bandung", 584, 2009);
-	teknologi[1].isi_buku("Api Sejarah Jilid Kedua", "Ahmad Mansur Suryanegara", "Ini buku tentang sejarah Indonesia yang sebenarnya", "Salamadani Pustaka Semesta", "Bandung", 578, 2010);
-	teknologi[2].isi_buku("Menemukan Sejarah:wacana pergerakan Islam di Indonesia", "Ahmad Mansur Suryanegara", "Ini buku tentang wacana pergerakan Islam di Indonesia", "Mizan", "Jakarta", 335, 1995);
-	teknologi[3].isi_buku("", "Ahmad Mansur Suryanegara", "Ini buku tentang membuat Mobile App", "Informatika", "Mojokerto", 675, 1995);
-	teknologi[4].isi_buku("Pemberontakan Tentara Pembela Tanah Air- Peta di Cileunca Pangalengan Bandung Selatan", "Ahmad Mansur Suryanegara", "Ini buku tentang programing python", "Informatika", "Mojokerto", 497, 1996);
+	sejarah[0].isi_buku("Api Sejarah Jilid Kesatu", "Ahmad Mansur Suryanegara", "Ini buku tentang sejarah Indonesia yang sebenarnya", "Salamadani Pustaka Semesta", "Bandung", 584, 2009);
+	sejarah[1].isi_buku("Api Sejarah Jilid Kedua", "Ahmad Mansur Suryanegara", "Ini buku tentang sejarah Indonesia yang sebenarnya", "Salamadani Pustaka Semesta", "Bandung", 578, 2010);
+	sejarah[2].isi_buku("Menemukan Sejarah:wacana pergerakan Islam di Indonesia", "Ahmad Mansur Suryanegara", "Ini buku tentang wacana pergerakan Islam di Indonesia", "Mizan", "Jakarta", 335, 1995);
+	sejarah[3].isi_buku("", "Ahmad Mansur Suryanegara", "Ini buku tentang membuat Mobile App", "Informatika", "Mojokerto", 675, 1995);
+	sejarah[4].isi_buku("Pemberontakan Tentara Pembela Tanah Air- Peta di Cileunca Pangalengan Bandung Selatan", "Ahmad Mansur Suryanegara", "Ini buku tentang programing python", "Informatika", "Mojokerto", 497, 1996);
 	
 	cout << "Daftar Buku Sejarah :" << endl;
 	
@@ -81,11 +81,11 @@ void daftarPolitik(){
 	buku politik[5];
 	
 	//membuat mengisi array 'politik'
-	teknologi[0].isi_buku("Programing C++", "Dwiki Nuridhuha", "Ini buku tentang pemrograman C++", "Informatika", "Mojokerto", 627, 2018);
-	teknologi[1].isi_buku("Become Hakel", "Dwiki Nuridhuha", "Ini buku tentang Hakel", "Informatika", "Mojokerto", 482, 2020);
-	teknologi[2].isi_buku("Non Blocking With NodeJS", "Dwiki Nuridhuha", "Ini buku tentang membuat Website", "Informatika", "Mojokerto", 524, 2019);
-	teknologi[3].isi_buku("Membuat Hybrid App dengan Ionic", "Dwiki Nuridhuha", "Ini buku tentang membuat Mobile App", "Informatika", "Mojokerto", 675, 2020);
-	teknologi[4].isi_buku("Data sains dengan Python", "Dwiki Nuridhuha", "Ini buku tentang programing python", "Informatika", "Mojokerto", 497, 2021);
+	politik[0].isi_buku("Programing C++", "Dwiki Nuridhuha", "Ini buku tentang pemrograman C++", "Informatika", "Mojokerto", 627, 2018);
+	politik[1].isi_buku("Become Hakel", "Dwiki Nuridhuha", "Ini buku tentang Hakel", "Informatika", "Mojokerto", 482, 2020);
+	politik[2].isi_buku("Non Blocking With NodeJS", "Dwiki Nuridhuha", "Ini buku tentang membuat Website", "Informatika", "Mojokerto", 524, 2019);
+	politik[3].isi_buku("Membuat Hybrid App dengan Ionic", "Dwiki Nuridhuha", "Ini buku tentang membuat Mobile App", "Informatika", "Mojokerto", 675, 2020);
+	politik[4].isi_buku("Data sains dengan Python", "Dwiki Nuridhuha", "Ini buku tentang programing python", "Informatika", "Mojokerto", 497, 2021);
 	
 	cout << "Daftar Buku Politik :" << endl;
 	
@@ -99,7 +99,8 @@ void daftarPolitik(){
 int main()
 {
 	daftarTeknologi(); //Dari Dwiki
-	
+	daftarSejarah();//Dari Zakki
+	daftarPolitik();//Dari Zakki
     return 0;
 }
 
