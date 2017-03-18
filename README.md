@@ -30,7 +30,7 @@ Tugas :
 Program ini menampilkan 7 kategori buku sperti <b>Tekonologi, Agama, Psikolok, Sejarah, Filsafat, Politik, dan Fiksi</b> yang di buat dengan menggunakan Class pemrograman C++, Berikut desain classnya : <br>
 
 <h3>Class Buku</h3>
-<b>Atribut</b>
+<b>Atribut</b> <br>
 - judul string <br>
 - penulis string <br>
 - deskripsi string <br>
@@ -38,6 +38,6 @@ Program ini menampilkan 7 kategori buku sperti <b>Tekonologi, Agama, Psikolok, S
 - kota string <br>
 - Tahun int <br>
 - halaman int <br>
-<b>Method</b>
+<b>Method</b> <br>
 + isiBuku void <br>
 + tampil void <br>
