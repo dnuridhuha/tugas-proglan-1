@@ -56,6 +56,26 @@ void daftarFilsafat(){
 		filsafat[i].tampil();
 	}
 }
+// Dari Yulius
+void daftar_psychology(){
+	//membuat variabel class array psychology berisi 5
+	buku psychology[5];
+
+	//membuat mengisi array 'psychology'
+	psychology[0].isi_buku("Read Your Mind", "Yulius Pratama", "Tutorial membaca pikiran manusia ", "YuliusP", "Blitar", 327, 2020);
+	psychology[1].isi_buku("Bimbingan Konseling ", "Fenti Hikmawati ", "Ini buku tentang bibimbingan konseling", "RajaGrafindo Persada", "indonesia", 160, 2012);
+	psychology[2].isi_buku("Psychology For Beginner", "Yulius Pratama", "Ini buku bembelajaran Psychology untuk pemula ", "YuliusP", "Blitar", 710, 2030);
+	psychology[3].isi_buku("Cara Mengendalikan pikiran manusia", "Yulius Pratama", "Ini buku tentang cara mengedalikan pikiran manusia", "YuliusP", "Blitar", 775, 2027);
+	psychology[4].isi_buku("The brain game", "Yulius Pratama", "Ini buku tentang bagaimana mangolah pikiran dengan baik", "YuliusP", "Blitar", 231, 2043);
+
+	cout << "Daftar Buku psychology :" << endl;
+
+	//menapilkan daftar buku psychology
+	for (int i = 0; i < sizeof(psychology) / sizeof(buku); i++) {
+		cout << "\nDaftar yang ke-" << i + 1 << endl;
+		psychology[i].tampil();
+	}
+}
 
 //Dari Dwiki
 void daftarTeknologi(){
@@ -80,9 +100,20 @@ void daftarTeknologi(){
 
 int main()
 {
+	cout << "==================================================" << endl;
+    cout << "=                 LIST DATA BUKU                 =" << endl;
+    cout << "=                   THE DREAMER TEAM             =" << endl;
+    cout << "==================================================" << endl;
+    cout << endl;
+    cout << endl;
+	
 	daftarTeknologi(); //Dari Dwiki
 	
 	daftarFilsafat(); //Dari Meidiana
+	
+	daftar_psychology(); // Dari Yulius
+	
+	
 	
     return 0;
 }
