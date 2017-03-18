@@ -7,9 +7,9 @@ Nim : 165150307111054 <br>
 Tugas : Membuat Kategori Teknologi dan membuat Class <br>
 
 2.
-Nama : 
-Nim : 
-Tugas :
+Nama : Zakki Ahmad Fauzi  <br>
+Nim : 165150300111004 <br>
+Tugas : Membuat Objek Kategori Sejarah dan Politik <br>
 
 3.
 Nama : 
