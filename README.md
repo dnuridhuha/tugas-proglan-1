@@ -17,9 +17,9 @@ Nim : 165150300111010 <br>
 Tugas : Membuat Objek Kategori Pisikologi <br>  
 
 4.
-Nama : Meidiana Adinda Prasanty
-Nim : 165150301111037
-Tugas :Membuat Objek Kategori Filsafat
+Nama : Meidiana Adinda Prasanty <br>
+Nim : 165150301111037 <br>
+Tugas :Membuat Objek Kategori Filsafat <br>
 
 5.
 Nama : 
