@@ -38,7 +38,7 @@ class buku {
 //Dari Dwiki
 void daftarTeknologi(){
 	//membuat variabel class array teknologi berisi 5
-	buku teknologi[5],sejarah[5],politik[5];
+	buku teknologi[5];
 	
 	//membuat mengisi array 'teknologi'
 	teknologi[0].isi_buku("Programing C++", "Dwiki Nuridhuha", "Ini buku tentang pemrograman C++", "Informatika", "Mojokerto", 627, 2018);
@@ -75,8 +75,9 @@ void daftarSejarah(){
 		sejarah[i].tampil();
 	}
 }
+//Dari Zakki
 void daftarPolitik(){
-	//membuat variabel class array sejarah berisi 5
+	//membuat variabel class array politik berisi 5
 	buku politik[5];
 	
 	//membuat mengisi array 'politik'
